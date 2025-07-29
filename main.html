@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Keragaman Alam Indonesia - Tugas IPS Kelas 8</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f0f9f4;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #4CAF50, #00BCD4, #8BC34A);
+      background-size: 600% 600%;
+      animation: gradientAnim 10s ease infinite;
+      color: white;
+      padding: 100px 20px 60px;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    @keyframes gradientAnim {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    header h1 {
+      font-size: 3.2em;
+      margin: 0;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    }
+
+    header p {
+      font-size: 1.2em;
+      font-weight: 300;
+      margin-top: 10px;
+    }
+
+    main {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+      padding: 30px;
+      width: calc(50% - 20px);
+      min-width: 320px;
+      transition: 0.4s ease;
+      transform: translateY(30px);
+      opacity: 0;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .card.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+      transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.8em;
+      color: #4CAF50;
+    }
+
+    .card p {
+      line-height: 1.8;
+      color: #444;
+      font-size: 1.05em;
+    }
+
+    footer {
+      background: #2e7d32;
+      color: #fff;
+      text-align: center;
+      padding: 30px;
+      margin-top: 50px;
+      font-weight: 300;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        width: 100%;
+      }
+
+      header h1 {
+        font-size: 2.2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Keragaman Alam Indonesia</h1>
+    <p>Tugas IPS Kelas 8</p>
+  </header>
+
+  <main>
+        <div class="card-container">
+            <div class="card">
+                <h2>Letak Geologis</h2>
+                <p>Letak geologis Indonesia mengacu pada posisi wilayah Indonesia berdasarkan susunan dan kondisi geologis bumi, khususnya terhadap lempeng-lempeng tektonik aktif dan sistem pegunungan dunia. Secara geologis, Indonesia menempati kawasan yang sangat kompleks dan dinamis, karena berada di pertemuan tiga lempeng tektonik utama: Lempeng Indo-Australia di selatan, Lempeng Eurasia di utara dan barat, serta Lempeng Pasifik di timur. Ketiga lempeng ini saling bergerak, bertumbukan, dan menyusup ke bawah lempeng lainnya di sekitar wilayah Indonesia. Akibatnya, wilayah Indonesia menjadi salah satu zona paling aktif secara tektonik di dunia.
+                    Dampak dari letak geologis ini sangat besar terhadap karakteristik alam Indonesia. Salah satu akibat paling nyata adalah banyaknya gunung berapi aktif yang tersebar dari Pulau Sumatra, Jawa, Bali, Nusa Tenggara, hingga ke Sulawesi dan Maluku. Indonesia bahkan termasuk dalam kawasan yang disebut Cincin Api Pasifik (Ring of Fire), yaitu jalur gunung berapi aktif yang mengelilingi Samudra Pasifik. Aktivitas vulkanik ini membentuk gunung-gunung tinggi, tanah yang subur, dan sekaligus menimbulkan potensi bencana seperti letusan gunung berapi yang bisa berdampak luas terhadap kehidupan masyarakat sekitar.
+                    Selain vulkanisme, pertemuan antar-lempeng ini juga menyebabkan seringnya gempa bumi dan tsunami di Indonesia. Lempeng Indo-Australia yang menyusup ke bawah Lempeng Eurasia di bagian barat dan selatan Indonesia memicu banyak gempa bumi besar, seperti yang terjadi di Aceh tahun 2004 dan di Palu tahun 2018. Gempa yang berpusat di dasar laut juga sering memicu tsunami yang berbahaya. Oleh karena itu, Indonesia harus memiliki sistem peringatan dini dan mitigasi bencana yang kuat agar mampu mengurangi risiko bagi penduduknya.
+                    Namun, di balik semua potensi bahaya tersebut, letak geologis Indonesia juga membawa berkah berupa kekayaan sumber daya alam. Aktivitas tektonik dan vulkanik selama jutaan tahun membentuk cadangan bahan tambang dan energi yang sangat besar. Indonesia memiliki berbagai jenis sumber daya mineral seperti emas, tembaga, nikel, batu bara, serta minyak dan gas bumi. Tak hanya itu, kombinasi bentang alam yang kompleks dan iklim tropis juga menyebabkan Indonesia memiliki keanekaragaman hayati yang luar biasa, menjadikannya sebagai salah satu negara megadiverse di dunia.
+                    Dengan kata lain, letak geologis Indonesia adalah pedang bermata dua: di satu sisi memberikan kekayaan alam dan keindahan alam yang luar biasa, tetapi di sisi lain menghadirkan risiko bencana yang tinggi. Oleh karena itu, sangat penting bagi kita sebagai warga negara untuk memahami kondisi geologis ini agar bisa memanfaatkannya secara bijak serta siap menghadapi potensi bahayanya dengan ilmu pengetahuan dan kesiapsiagaan
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>Cuaca dan Iklim</h2>
+                <p>Cuaca dan iklim adalah dua hal yang saling berkaitan namun memiliki pengertian yang berbeda. Cuaca adalah kondisi atmosfer pada waktu tertentu di suatu wilayah yang relatif sempit, dan dapat berubah-ubah dalam waktu singkat, seperti dalam hitungan jam atau hari. Contohnya, hari ini bisa hujan deras di pagi hari lalu cerah di sore hari. Sementara itu, iklim adalah rata-rata kondisi cuaca di suatu daerah dalam jangka waktu yang sangat panjang, biasanya selama 30 tahun atau lebih. Dengan kata lain, cuaca bersifat harian dan berubah-ubah, sedangkan iklim bersifat tetap dan menjadi ciri khas suatu wilayah.
+                    Indonesia memiliki iklim tropis, karena terletak di sekitar garis khatulistiwa. Iklim tropis ditandai dengan suhu udara yang relatif tinggi sepanjang tahun, yaitu antara 25–32 derajat Celsius, serta kelembapan udara yang tinggi. Di wilayah tropis seperti Indonesia, tidak terdapat empat musim seperti di negara-negara subtropis, melainkan hanya ada dua musim utama, yaitu musim kemarau dan musim hujan. Kedua musim ini dipengaruhi oleh angin muson yang berganti arah setiap setengah tahun.
+                    Musim hujan biasanya terjadi pada bulan Oktober hingga Maret, ketika angin muson barat yang berasal dari Samudra Hindia membawa banyak uap air ke wilayah Indonesia. Akibatnya, terjadi peningkatan curah hujan di hampir seluruh wilayah Indonesia, terutama di bagian barat dan selatan. Sementara itu, musim kemarau biasanya berlangsung dari bulan April hingga September, saat angin muson timur bertiup dari benua Australia yang sedang mengalami musim dingin dan kering. Angin ini membawa udara yang lebih kering sehingga curah hujan berkurang di sebagian besar wilayah Indonesia.
+                    Letak geografis dan bentuk kepulauan Indonesia juga menyebabkan variasi iklim mikro di berbagai daerah. Misalnya, wilayah pegunungan seperti di Papua dan dataran tinggi di Jawa memiliki suhu yang lebih sejuk dibandingkan daerah pantai atau dataran rendah. Beberapa daerah seperti Nusa Tenggara cenderung lebih kering karena letaknya yang berada di zona bayangan hujan (rain shadow area), sedangkan daerah seperti Sumatra bagian barat atau Kalimantan cenderung lebih basah karena langsung menerima angin pembawa hujan dari laut.
+                    Secara umum, cuaca dan iklim di Indonesia sangat berpengaruh terhadap kehidupan masyarakat, terutama dalam sektor pertanian, perikanan, transportasi, dan kesehatan. Perubahan cuaca ekstrem seperti hujan lebat yang tiba-tiba, kekeringan panjang, atau badai tropis bisa mengganggu aktivitas ekonomi bahkan membahayakan keselamatan. Oleh karena itu, pemahaman tentang pola cuaca dan iklim sangat penting untuk perencanaan jangka panjang, terutama di era perubahan iklim global yang semakin tidak menentu.
+                </p>
+            </div>
+        </div>
+    </main>
+
+  <footer>
+    <p>Mau buat kayak begini atau yang lebih keren dari ini? Contact 085780111993 (Raihan)</p>
+  </footer>
+
+  <script>
+    const cards = document.querySelectorAll('.card');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+        }
+      });
+    }, { threshold: 0.2 });
+
+    cards.forEach(card => observer.observe(card));
+  </script>
+</body>
+</html>
